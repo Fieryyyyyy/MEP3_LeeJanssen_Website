@@ -1,0 +1,56 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgba(0, 38, 87, 0.95) !important
+}
+
+.text-rainbow {
+    background: linear-gradient(90deg, #c77dff, #ff7d7d, #7ddcff, #c77dff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 5s infinite linear;
+}
+
+.text-purple {
+    color: #c77dff !important;
+}
+
+.border-purple {
+    border-color: #c77dff !important;
+}
+
+.btn-outline-purple {
+    border: 1px solid #c77dff;
+    color: #c77dff;
+}
+
+.btn-outline-purple:hover {
+    background-color: #c77dff;
+    color: #1e1e1e;
+}
+
+.hero-section {
+    background-image: linear-gradient(rgba(0, 38, 87, 0.8), rgba(0, 38, 87, 0.9)), url('/images/art/Splash Throne Room.png');
+    background-size: cover;
+    background-position: center;
+    padding: 120px 0;
+    border-radius: 15px;
+    margin-top: 20px;
+    position: relative;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+.hero-section:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+}
+
+.hero-image {
+    max-height: 400px;
+    filter: drop-shadow(0 0 10px rgba(199, 125, 255, 0.5));
+}
+
+.box-shadow-square:hover {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s ease;
+}
